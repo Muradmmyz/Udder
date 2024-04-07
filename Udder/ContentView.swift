@@ -18,6 +18,11 @@ struct ContentView: View {
                 Text("Fresh Milk, On Demand")
                     .font(.system(size: 24))
                 Spacer()
+                Image("milk")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .padding(.horizontal)
+                Spacer()
             }
         }
     }
